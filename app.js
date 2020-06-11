@@ -4,7 +4,8 @@ const colors = document.getElementsByClassName("jsColors");
 const range =document.getElementById("jsRange");
 const mode = document.getElementById("jsMode");
 
-canvas.size = 700;
+canvas.width = 700;
+canvas.height = 700;
 ctx.strokeStyle = "#2c2c2c";
 ctx.linewidth = 2.5;
 
